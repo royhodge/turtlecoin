@@ -27,7 +27,7 @@ namespace CryptoNote
 
         const size_t CRYPTONOTE_MAX_TX_SIZE = 1000000000;
 
-        const uint64_t CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX = 3914525;
+        const uint64_t CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX = 16674;
 
         const uint32_t CRYPTONOTE_MINED_MONEY_UNLOCK_WINDOW = 40;
 
@@ -42,7 +42,7 @@ namespace CryptoNote
         const size_t BLOCKCHAIN_TIMESTAMP_CHECK_WINDOW_V3 = 11;
 
         // MONEY_SUPPLY - total number coins to be generated
-        const uint64_t MONEY_SUPPLY = UINT64_C(100000000000000);
+        const uint64_t MONEY_SUPPLY = UINT64_C(2100000008888888888);
 
         const uint32_t ZAWY_DIFFICULTY_BLOCK_INDEX = 187000;
 
@@ -85,7 +85,7 @@ namespace CryptoNote
 
         const size_t CRYPTONOTE_COINBASE_BLOB_RESERVED_SIZE = 600;
 
-        const size_t CRYPTONOTE_DISPLAY_DECIMAL_POINT = 2;
+        const size_t CRYPTONOTE_DISPLAY_DECIMAL_POINT = 10;
 
         const uint64_t MINIMUM_FEE = UINT64_C(10);
 
@@ -306,9 +306,9 @@ namespace CryptoNote
     const uint64_t BLOCKS_SYNCHRONIZING_DEFAULT_COUNT = 100; // by default, blocks count in blocks downloading
     const size_t COMMAND_RPC_GET_BLOCKS_FAST_MAX_COUNT = 1000;
 
-    const int P2P_DEFAULT_PORT = 11897;
+    const int P2P_DEFAULT_PORT = 11888;
 
-    const int RPC_DEFAULT_PORT = 11898;
+    const int RPC_DEFAULT_PORT = 11999;
 
     const int SERVICE_DEFAULT_PORT = 8070;
 
@@ -357,6 +357,6 @@ namespace CryptoNote
         {0xb4, 0x0c, 0x3a, 0x5c, 0xcf, 0x41, 0x46, 0x30, 0x54, 0xf8, 0x81, 0xa3, 0xb5, 0xc1, 0x32, 0xe8}};
 
     const char *const SEED_NODES[] = {
-        "ip-address:11897", // rock
+        "127.0.0.1:11888", // rock
     };
 } // namespace CryptoNote
